@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Palette 1 -->
+    <color name="orange_fonce">#d68438</color>
+    <color name="orange_pale">#f1b24b</color>
+    <color name="vert_marde">#36846b</color>
+    <color name="vert_pale">#4bb39a</color>
+
+    <!-- Palette 2 -->
+    <color name="jaune_pale">#f2fc9f</color>
+    <color name="beige">#edbb91</color>
+    <color name="saumon">#da6969</color>
+    <color name="mauve_pale">#b05977</color>
+
+    <color name="grey">#121010</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

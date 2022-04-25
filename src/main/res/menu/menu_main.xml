@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.fill_me.MainActivity">
+
+    <group>
+        <item
+            android:id="@+id/menuNewCard"
+            android:title="Nouvelle Carte"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/menuAdvCheckBox"
+            android:title="Mode avancé"
+            android:checkable="true"/>
+    </group>
+</menu>

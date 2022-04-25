@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Fill_Me" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/orange_fonce</item>
+        <item name="colorPrimaryVariant">@color/orange_pale</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/vert_pale</item>
+        <item name="colorSecondaryVariant">@color/vert_marde</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/orange_fonce</item>
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="Base.Widget.AppCompat.Button.MyButton" parent="Theme.Fill_Me">
+        <item name="android:colorAccent">@color/grey</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Base.Widget.AppCompat.TextView.MyTextView" parent="Theme.Fill_Me">
+        <item name="android:textColor">@color/orange_fonce</item>
+    </style>
+
+    <style name="Base.Widget.AppCompat.EditText.MyEditText" parent="Theme.Fill_Me">
+        <item name="android:textColor">@color/orange_fonce</item>
+        <item name="android:background">@null</item>
+    </style>
+
+</resources>
